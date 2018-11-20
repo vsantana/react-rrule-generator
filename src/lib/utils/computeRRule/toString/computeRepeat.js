@@ -19,7 +19,7 @@ const computeRepeat = ({
     case 'Monthly': {
       return computeMonthly(monthly);
     }
-    case 'Semanalmente': {
+    case 'Weekly': {
       return computeWeekly(weekly);
     }
     case 'Daily': {

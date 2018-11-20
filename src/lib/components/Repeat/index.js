@@ -43,11 +43,11 @@ const Repeat = ({
             value={frequency}
             onChange={handleChange}
           >
-            {isOptionAvailable('Yearly') && <option value="Anualmente">Anualmente</option>}
-            {isOptionAvailable('Monthly') && <option value="Mensal">Mensal</option>}
-            {isOptionAvailable('Weekly') && <option value="Semanalmente">Semanalmente</option>}
-            {isOptionAvailable('Daily') && <option value="Diario">Diario</option>}
-            {isOptionAvailable('Hourly') && <option value="Horario">Horario</option>}
+            {isOptionAvailable('Yearly') && <option value="Yearly">Anualmente</option>}
+            {isOptionAvailable('Monthly') && <option value="Monthly">Mensal</option>}
+            {isOptionAvailable('Weekly') && <option value="Weekly">Semanalmente</option>}
+            {isOptionAvailable('Daily') && <option value="Daily">Diario</option>}
+            {isOptionAvailable('Hourly') && <option value="Hourly">Horario</option>}
           </select>
         </div>
       </div>
@@ -107,7 +107,7 @@ Repeat.propTypes = {
     daily: PropTypes.object.isRequired,
     hourly: PropTypes.object.isRequired,
     options: PropTypes.shape({
-      frequency: PropTypes.arrayOf(PropTypes.oneOf(['Yearly', 'Monthly', 'Semanalmente', 'Daily', 'Hourly'])),
+      frequency: PropTypes.arrayOf(PropTypes.oneOf(['Yearly', 'Monthly', 'Weekly', 'Daily', 'Hourly'])),
       yearly: PropTypes.oneOf(['on', 'on the']),
       monthly: PropTypes.oneOf(['on', 'on the']),
     }).isRequired,

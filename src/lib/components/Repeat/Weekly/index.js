@@ -3,6 +3,16 @@ import PropTypes from 'prop-types';
 import { toPairs } from 'lodash';
 import numericalFieldHandler from '../../../utils/numericalFieldHandler';
 
+const days_pt = {
+  sun: 'dom',
+  mon: 'seg',
+  tue: 'ter',
+  wed: 'qua',
+  thu: 'qui',
+  fri: 'sex',
+  sat: 'sab',
+};
+
 const RepeatWeekly = ({
   id,
   weekly: {
@@ -16,12 +26,11 @@ const RepeatWeekly = ({
   if (options.weekStartsOnSunday) {
     daysArray = daysArray.slice(-1).concat(daysArray.slice(0, -1));
   }
-
   return (
     <div className="px-3">
       <div className="form-group row d-flex align-items-sm-center">
         <div className="col-sm-1 offset-sm-2">
-          every
+          cada
         </div>
         <div className="col-sm-3">
           <input
@@ -34,7 +43,7 @@ const RepeatWeekly = ({
           />
         </div>
         <div className="col-sm-1">
-          week(s)
+          semana(s)
         </div>
       </div>
 
@@ -65,7 +74,7 @@ const RepeatWeekly = ({
                   handleChange(editedEvent);
                 }}
               />
-              {dayName}
+              {days_pt[dayName]}
             </label>))
           }
         </div>

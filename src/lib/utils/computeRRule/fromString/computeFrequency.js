@@ -7,7 +7,7 @@ const computeFrequency = (data, rruleObj) => {
       return 'Monthly';
     }
     case 2: {
-      return 'Semanalmente';
+      return 'Weekly';
     }
     case 3: {
       return 'Daily';
