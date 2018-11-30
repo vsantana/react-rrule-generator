@@ -28,7 +28,7 @@ const RepeatMonthlyOnThe = ({
         )}
       </div>
       <div className="col-sm-1">
-        on the
+        na
       </div>
 
       <div className="col-sm-2">

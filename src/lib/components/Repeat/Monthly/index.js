@@ -22,7 +22,7 @@ const RepeatMonthly = ({
     <div>
       <div className="form-group row d-flex align-items-sm-center">
         <div className="col-sm-1 offset-sm-2">
-          every
+          cada
         </div>
         <div className="col-sm-3">
           <input
@@ -35,7 +35,7 @@ const RepeatMonthly = ({
           />
         </div>
         <div className="col-sm-1">
-          month(s)
+          mes(es)
         </div>
       </div>
 

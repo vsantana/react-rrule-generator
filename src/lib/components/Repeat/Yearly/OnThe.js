@@ -28,7 +28,7 @@ const RepeatYearlyOnThe = ({
         )}
       </div>
       <div className="col-sm-1">
-        on the
+        na
       </div>
 
       <div className="col-sm-2">
@@ -41,11 +41,11 @@ const RepeatYearlyOnThe = ({
           disabled={!isActive}
           onChange={handleChange}
         >
-          <option value="First">First</option>
-          <option value="Second">Second</option>
-          <option value="Third">Third</option>
-          <option value="Fourth">Fourth</option>
-          <option value="Last">Last</option>
+          <option value="First">Primeira</option>
+          <option value="Second">Segunda</option>
+          <option value="Third">Terceira</option>
+          <option value="Fourth">Quarta</option>
+          <option value="Last">Ultima</option>
         </select>
       </div>
 

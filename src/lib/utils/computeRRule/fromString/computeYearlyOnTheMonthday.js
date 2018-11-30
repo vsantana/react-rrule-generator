@@ -7,31 +7,31 @@ const computeYearlyOnTheMonthday = (data, rruleObj) => {
 
   switch (weekdays) {
     case '0': {
-      return 'Monday';
+      return 'Segunda';
     }
     case '1': {
-      return 'Tuesday';
+      return 'Terça';
     }
     case '2': {
-      return 'Wednesday';
+      return 'Quarta';
     }
     case '3': {
-      return 'Thursday';
+      return 'Quinta';
     }
     case '4': {
-      return 'Friday';
+      return 'Sexta';
     }
     case '5': {
-      return 'Saturday';
+      return 'Sábado';
     }
     case '6': {
-      return 'Sunday';
+      return 'Domingo';
     }
     case '0,1,2,3,4,5,6': {
-      return 'Day';
+      return 'Dia';
     }
     case '0,1,2,3,4': {
-      return 'Weekday';
+      return 'Dia útil';
     }
     case '5,6': {
       return 'Weekend day';

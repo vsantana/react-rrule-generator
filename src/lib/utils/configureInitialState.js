@@ -32,7 +32,7 @@ const configureState = (config = {}, calendarComponent, id) => {
         },
         onThe: {
           month: 'Jan',
-          day: 'Monday',
+          day: 'Segunda',
           which: 'First',
         },
         options: {
@@ -46,7 +46,7 @@ const configureState = (config = {}, calendarComponent, id) => {
           day: 1,
         },
         onThe: {
-          day: 'Monday',
+          day: 'Segunda',
           which: 'First',
         },
         options: {

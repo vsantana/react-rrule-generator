@@ -15,14 +15,14 @@ export const MONTHS = [
   'Dec'
 ];
 export const DAYS = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
-  'Day',
-  'Weekday',
+  'Segunda',
+  'Terça',
+  'Quarta',
+  'Quinta',
+  'Sexta',
+  'Sábado',
+  'Domingo',
+  'Dia',
+  'Dia útil',
   'Weekend day'
 ];

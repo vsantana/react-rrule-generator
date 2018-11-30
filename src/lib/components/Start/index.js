@@ -17,7 +17,7 @@ const Start = ({
           className="col-form-label"
         >
           <strong>
-            Start
+            Começa
           </strong>
         </label>
       </div>

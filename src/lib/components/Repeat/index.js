@@ -31,7 +31,7 @@ const Repeat = ({
             className="col-form-label"
           >
             <strong>
-              Repeat
+              Repete
             </strong>
           </label>
         </div>

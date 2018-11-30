@@ -24,31 +24,31 @@ const computeYearlyOnThe = (onThe) => {
   }
 
   switch (onThe.day) {
-    case 'Monday':
+    case 'Segunda':
       repeat.byweekday = [0];
       break;
-    case 'Tuesday':
+    case 'Terça':
       repeat.byweekday = [1];
       break;
-    case 'Wednesday':
+    case 'Quarta':
       repeat.byweekday = [2];
       break;
-    case 'Thursday':
+    case 'Quinta':
       repeat.byweekday = [3];
       break;
-    case 'Friday':
+    case 'Sexta':
       repeat.byweekday = [4];
       break;
-    case 'Saturday':
+    case 'Sábado':
       repeat.byweekday = [5];
       break;
-    case 'Sunday':
+    case 'Domingo':
       repeat.byweekday = [6];
       break;
-    case 'Day':
+    case 'Dia':
       repeat.byweekday = [0, 1, 2, 3, 4, 5, 6];
       break;
-    case 'Weekday':
+    case 'Dia útil':
       repeat.byweekday = [0, 1, 2, 3, 4];
       break;
     case 'Weekend day':

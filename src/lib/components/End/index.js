@@ -25,7 +25,7 @@ const End = ({
             className="col-form-label"
           >
             <strong>
-              End
+              Termina
             </strong>
           </label>
         </div>

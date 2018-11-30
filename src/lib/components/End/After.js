@@ -20,7 +20,7 @@ const EndAfter = ({
         />
       </div>
       <div className="col-9 col-sm-6">
-        executions.
+        eventos.
       </div>
     </div>
   </div>
